@@ -1,2 +1,2 @@
 #!/bin/bash 
-mkidr -m 777 /tmp/my_first_directory
+mkidr -m 777 /tmp/my_first_directory/

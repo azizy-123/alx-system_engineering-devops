@@ -1,3 +1,2 @@
 #!/bin/bash
-[ -z "$1" ] && echo "Usage: $0 [string]" && exit 1
-echo "$1" | tr 'A-Za-z' 'N-ZA-Mn-za-m' | tee /dev/stderr | tr 'A-Za-z' 'N-ZA-Mn-za-m'
+tr 'A-Za-z' 'N-ZA-Mn-za-m'

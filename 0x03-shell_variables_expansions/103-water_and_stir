@@ -1,3 +1,2 @@
 #!/bin/bash
 echo "ibase=water; $WATER+ibase=stir; $STIR" | bc | tr -d '\n' | sed 's/-//g; s/^\([[:alpha:]]\)/0\1/; s/\([[:alpha:]]\)$/\1=bestchol/'
-
